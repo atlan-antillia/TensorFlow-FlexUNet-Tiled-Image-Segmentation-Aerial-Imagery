@@ -284,16 +284,25 @@ mask_file_format = ".png"
 rgb_map = {(0,0,0):0, (60,16,152):1,(132,41,246):2, (110,193,228):3, (254,221,58):4, (226,169,41):5, (155,155,155):6}
 </pre>
 
-<b>Epoch change inference callback</b><br>
+<b>Tiled inference parametes</b><br>
+<pre>
+[tiledinfer] 
+overlapping = 128
+images_dir    = "./mini_test/images/"
+output_dir    = "./mini_test_output_tiled/"
+</pre>
+
+<b>Epoch change tiled inference callback</b><br>
 Enabled <a href="./src/EpochChangeInferencer.py">epoch_change_infer callback (EpochChangeInferencer.py)</a></b>.<br>
 <pre>
 [train]
-epoch_change_infer       = True
-epoch_change_infer_dir   =  "./epoch_change_infer"
-num_infer_images         = 6
+poch_change_infer     = False
+epoch_change_infer_dir =  "./epoch_change_infer"
+epoch_change_tiled_infer     = True
+epoch_change_tiled_infer_dir =  "./epoch_change_tiled_infer"
 </pre>
 
-By using this callback, on every epoch_change, the inference procedure can be called
+By using this callback, on every epoch_change, the tiled inference procedure can be called
  for 6 images in <b>mini_test</b> folder. This will help you confirm how the predicted mask changes 
  at each epoch during your training process.<br> <br> 
 
