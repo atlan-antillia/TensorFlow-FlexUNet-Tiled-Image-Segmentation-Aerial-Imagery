@@ -293,7 +293,7 @@ output_dir    = "./mini_test_output_tiled/"
 </pre>
 
 <b>Epoch change tiled inference callback</b><br>
-Enabled <a href="./src/EpochChangeInferencer.py">epoch_change_infer callback (EpochChangeInferencer.py)</a></b>.<br>
+Enabled <a href="./src/EpochChangeTiledInferencer.py">epoch_change_tiled_infer callback (EpochChangeTiledInferencer.py)</a></b>.<br>
 <pre>
 [train]
 poch_change_infer     = False
