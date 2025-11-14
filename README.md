@@ -187,7 +187,7 @@ the tiles.
 <br><br>
 (3) Finally, we generated an <b>Augmented-Tiled-Aerial-Imagery-ImageMask-Dataset</b> from 
 the <b>Augmented-Tiled-Aerial-Imagery-master</b> 
-by using <a href="./generator/split_master.py">split_master.py</a>, which simply split the master into train, valid and test subsets.
+by using <a href="./generator/split_master.py">split_master.py</a>, which simply splits the master into train, valid and test subsets.
 <br><br>
 <h4>2.3 Train images and masks sample</h4>
 
