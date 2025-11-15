@@ -113,7 +113,7 @@ CC0: Public Domain
 <h4>2.1 Augmented ImageMask Dataset</h4>
  If you would like to train this Aerial-Imagery Segmentation model by yourself,
  please download <a href="https://drive.google.com/file/d/1cZ9-JmCyJ8jjmErQ2ijvo5y4JT6AZ-TW/view?usp=sharing">
- <b>Augmented-Tiled-Aerial-Imagery-ImageMask-Dataset.zip.zip </b></a>
+ <b>Augmented-Tiled-Aerial-Imagery-ImageMask-Dataset.zip</b></a>
 on the google drive, expand the downloaded, and put it under dataset folder to be:
 <pre>
 ./dataset
@@ -180,8 +180,8 @@ in the <b>Semantic segmentation of aerial imagery</b> to a single large image an
   <b>Combined Non-Tiled-Masks</b><br>
  <img src="./projects/TensorFlowFlexUNet/Aerial-Imagery/asset/Non-Tiled-Masks.png" width="1024" height="auto"><br>
  <br>
-(2) Secondly, we generated an <b>Augmented-Tiled-Aerial-Imagery-master</b> dataset from the 9 images/masks of<b>Non-Tiled-Aerial-Imagery</b>
-by using<a href="./generator/TiledImageMaskDatasetGenerator.py">TiledImageMaskDatasetGenerator.py</a>
+(2) Secondly, we generated an <b>Augmented-Tiled-Aerial-Imagery-master</b> dataset from the 9 images/masks of <b>Non-Tiled-Aerial-Imagery</b>
+by using <a href="./generator/TiledImageMaskDatasetGenerator.py">TiledImageMaskDatasetGenerator.py</a>
 , which splits the large images and masks of Non-Tiled dataset into a lot of 512x512 pixels small tiles and augments
 the tiles. 
 <br><br>
