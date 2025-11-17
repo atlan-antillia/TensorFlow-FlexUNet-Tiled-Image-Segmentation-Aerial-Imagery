@@ -158,7 +158,7 @@ The original folder structure of <b>Semantic segmentation of aerial imagery</b> 
 ...
       └─image_part_009.png
 </pre>
-As shown above, each <b>Tile</b> folder contains 8 images and their corresponding masks, which are various pixel size.
+As shown above, each <b>Tile</b> folder contains 9 images and their corresponding masks, which are various pixel size.
 Hence we re-generated the original Non-Tiled 8 images and 8 mask files from the 8 Tile folders,
 and then split the Non-Tiled images and masks into 512x512 pixels tiles, which can be acceptable image size to 
 train our segmentation model<br>
